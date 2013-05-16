@@ -7,8 +7,7 @@ function init() {
   renderer.push('<span data-text="id"></span>');
   renderer.push('<span data-text="{title} {forename} {surname}"></span>');
   renderer.push('<span data-text="birthdate | date:\'%Y-%m-%d\'"></span>');
-  renderer.push('<span>Statischer scheiß</span>');
-  renderer.push('<span class="btn" on-click="buttonClick" data-text="Change {email}"></span>');
+  renderer.push('<span class="btn" on-click="buttonClick" data-text="{email}"></span>');
   
   var scope = {
     date: function (date, format) {
