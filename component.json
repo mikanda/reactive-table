@@ -1,0 +1,20 @@
+{
+  "name": "reactive-table",
+  "repo": "mikanda/reactive-table",
+  "description": "A simple component to combine mikanda/dom-table and component/model using component/reactive.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/reactive": "*",
+    "component/domify": "*",
+    "component/clone": "*",
+    "mikanda/dom-table": "*"
+  },
+  "development": {
+    "component/model": "*"
+  },
+  "license": "LGPL",
+  "scripts": [
+    "index.js"
+  ]
+}
