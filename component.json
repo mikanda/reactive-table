@@ -5,13 +5,13 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "component/reactive": "*",
-    "component/domify": "*",
-    "component/clone": "*",
-    "mikanda/dom-table": "*"
+    "component/reactive": "0.12.0",
+    "component/domify": "0.2.0",
+    "component/clone": "0.1.0",
+    "mikanda/dom-table": "0.0.1"
   },
   "development": {
-    "component/model": "*"
+    "component/model": "0.0.1"
   },
   "license": "LGPL",
   "scripts": [
