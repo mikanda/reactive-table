@@ -2,7 +2,7 @@
   "name": "reactive-table",
   "repo": "mikanda/reactive-table",
   "description": "A simple component to combine mikanda/dom-table and component/model using component/reactive.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [],
   "dependencies": {
     "component/reactive": "0.12.0",
