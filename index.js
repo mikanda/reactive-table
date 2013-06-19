@@ -41,11 +41,12 @@ ReactiveTable.prototype.setCollection = function (collection) {
       if (typeof self._renderer[i] === "object")
         cell = self._renderer[i].cloneNode(true);
       else 
-        cell = domify(self._renderer[i])[0];
+        cell = domify(self._renderer[i]);
       rowEl.addCell(cell);
     }
     scope = clone(self._scope);
     scope.model = model;
+    scope.row = rowEl;
     scope.collection = collection;
     reactive(rowEl, model, scope);
   });
